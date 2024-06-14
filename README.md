@@ -9,7 +9,7 @@
 
 # Introduction to GitHub
 
-dicky sunia gaskeun peuting cog aaaaaaaaaajb
+
 </header>
 
 <!--
