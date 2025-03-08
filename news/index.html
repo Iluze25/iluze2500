@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portal Berita</title>
+	<style type="text/css">
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #f9f9f9;
+		}
+		#container {
+			text-align: center;
+			background: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+		button:hover {
+			background-color: #0056b3;
+			color: whitesmoke;
+		}
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+		li {
+			list-style-type: none;
+			flex: 1 1 45%;
+			box-sizing: border-box;
+			background-color: #f0f0f0;
+			padding: 3vw;
+			text-align: center;
+			border: 1px solid #ddd;
+		}
+		button {
+			width: 20vw;
+			height: 10vw;
+			font-size: 3vw;
+			
+		}
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<h1>Portal Berita</h1>
+		<ul>
+			<li><button onclick="idn()">IDN News</button></li>
+			<li><button onclick="genz()">GenZ.id</button></li>
+			<li><button onclick="kumparan()">Kumparan</button></li>
+			<li><button onclick="Kompas()">Kompas</button></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		
+		function idn(){
+			window.open("https://www.idntimes.com/", "_blank")
+		}
+
+		function genz(){
+			window.open("https://genz.id/","_blank")
+		}
+		function kumparan(){
+			window.open("https://kumparan.com/", "_blank")
+		}
+		function Kompas(){
+			window.open("https://www.kompas.com/", "_blank")
+		}
+	</script>
+</body>
+</html>
