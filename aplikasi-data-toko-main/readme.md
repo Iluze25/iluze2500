@@ -14,8 +14,8 @@
     - Name : ListDataFrame
     - Value : Frame
 - TextBox :
-- Name : pcsFrame
-- Value : Pcs
+    - Name : pcsFrame
+    - Value : Pcs
   
 + Untuk bagian list data frame adalah full datanya
 ---
